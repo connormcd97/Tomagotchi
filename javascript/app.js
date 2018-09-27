@@ -168,8 +168,7 @@ function Main(){
 pet.update();
 pet.gamePlay();
 if(pet.timer.i%3==0){
-  console.log(pet.timer.i);
-  console.log(pet.age);
+
 if(pet.age>6){
   $(".char").attr("src","../tomagotchi/images/dog-old.gif");
 }
